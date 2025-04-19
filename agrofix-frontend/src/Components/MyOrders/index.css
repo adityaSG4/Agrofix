@@ -1,0 +1,93 @@
+.order-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.card,
+.order-card {
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.item-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.item-list {
+  font-size: 1rem;
+  padding: 8px 15px;
+  color: #495057;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.pending {
+  color: #ffcc00;
+}
+
+.status.completed {
+  color: #28a745;
+}
+
+.status.cancelled {
+  color: #dc3545;
+}
+
+.order-total {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.no-orders-message {
+  font-size: 1.2rem;
+  color: #888;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border-width: 4px;
+}

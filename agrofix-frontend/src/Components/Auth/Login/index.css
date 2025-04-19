@@ -1,0 +1,16 @@
+.login-container {
+    background: #f8f9fa;
+  }
+  
+  .login-card {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .login-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 128, 0, 0.15);
+  }
+  
+  .login-card:hover * {
+    transform: none !important; 
+  }
+  

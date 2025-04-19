@@ -1,0 +1,12 @@
+.nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #28a745 !important;
+  }
+  
+  .dropdown-menu {
+    min-width: 150px;
+  }
+  
